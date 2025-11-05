@@ -156,7 +156,7 @@ export function Hero() {
           transition={{ duration: 0.8 }}
         >
           <img
-            src="/public/pp.jpeg"
+            src="/pp.jpeg"
             alt="Manroop Kaur"
             className="w-56 h-56 md:w-72 md:h-72 rounded-full object-cover border-8 border-white shadow-lg"
           />
