@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
 import { Mail, MapPin, Phone } from "lucide-react";
-import { toast } from "sonner@2.0.3";
+import { toast } from "sonner";
 
 export function Contact() {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {

@@ -11,7 +11,7 @@ const projects = [
   {
     title: "Cropora: AI-Powered Farm Management Application",
     description: "Developed a robust, modular Android application in Kotlin to provide Indian farmers with real-time, AI-driven advisory services. Implemented an AI Diagnosis feature using image recognition to identify pests and diseases, paired with an intelligent chat for instant solutions. Integrated modules for real-time market prices, government subsidy information, and proactive weather alerts.",
-    image: "public/Cropora.jpeg",
+    image: "/Cropora.jpeg",
     tags: ["Kotlin", "Android", "AI", "Image Recognition"],
     category: "mobile",
     demoUrl: "https://drive.google.com/file/d/1tElhCdGGJ16ixKZaavk_VLcsKuJRCgsQ/view?usp=drivesdk",
@@ -20,7 +20,7 @@ const projects = [
   {
     title: "Digital Nerds: E-Learning App",
     description: "Designed and developed a cross-platform mobile app using Flutter and Firebase to centralize IT-related study resources. Built secure user authentication, system-level PDF viewing, and a course search functionality. Implemented an integrated quiz module with real-time feedback.",
-    image: "public/Digital Nerds.png",
+    image: "/Digital Nerds.png",
     tags: ["Flutter", "Firebase", "Cross-Platform", "UI/UX"],
     category: "mobile",
     demoUrl: "https://drive.google.com/file/d/1Izdl8FVzXEZFd2ocfXTT2YP-EM2IF_f1/view?usp=drivesdk",
@@ -31,7 +31,7 @@ const projects = [
   {
     title: "Portfolio App",
     description: "A personal portfolio app to showcase my projects, skills, and resume. Built to demonstrate UI and navigation skills.",
-    image: "public/Portfolio.jpg",
+    image: "/Portfolio.jpg",
     tags: ["Flutter", "Portfolio"],
     category: "mobile",
     demoUrl: "https://drive.google.com/file/d/1oiX-J98U3KLlN17FOstsXb0pxQF_tKf3/view?usp=drivesdk",

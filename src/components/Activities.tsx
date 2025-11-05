@@ -13,12 +13,12 @@ const activities = [
     description:
       "Achieved Third Prize at the national level, competing against teams from across the country.",
     images: [
-      "public/NYP/0.jpg",
-      "public/NYP/1.jpg",
-      "public/NYP/2.jpg",
-      "public/NYP/3.jpg",
-      "public/NYP/4.jpg",
-      "public/NYP/5.jpg"
+      "/NYP/0.jpg",
+      "/NYP/1.JPG",
+      "/NYP/2.jpg",
+      "/NYP/3.jpg",
+      "/NYP/4.jpg",
+      "/NYP/5.jpg"
     ],
     icon: Trophy,
     tags: ["National Level", "Public Speaking", "Parliamentary Debate"],
@@ -31,9 +31,9 @@ const activities = [
     description:
       "Recognized as the 'Best Parliamentarian' for outstanding performance and debating skills during the competition.",
     images: [
-      "public/BestParlim/1.JPG",
-      "public/BestParlim/2.JPG",
-      "public/BestParlim/3.JPG"
+      "/BestParlim/1.JPG",
+      "/BestParlim/2.JPG",
+      "/BestParlim/3.JPG"
     ],
     icon: Award,
     tags: ["Award", "Public Speaking", "Debate"],
@@ -46,12 +46,12 @@ const activities = [
     description:
       "Delivered a noteworthy performance in the Haryana Yuva Sansad (Youth Parliament).",
     images: [
-      "public/HYS/0.jpeg",
-      "public/HYS/1.jpg",
-      "public/HYS/2.png",
-      "public/HYS/3.png",
-      "public/HYS/4.jpg",
-      "public/HYS/5.jpg"
+      "/HYS/0.jpeg",
+      "/HYS/1.jpg",
+      "/HYS/2.png",
+      "/HYS/3.png",
+      "/HYS/4.jpg",
+      "/HYS/5.JPG"
     ],
     icon: Users,
     tags: ["Public Speaking", "Youth Parliament"],
@@ -62,8 +62,8 @@ const activities = [
     organization: "17th National Youth Parliament (National Level)",
     date: "Oct 2025",
     description: "Received an Award of Appreciation for participation in the National Level event, sponsored by the Ministry of Parliamentary Affairs, Govt. of India.",
-    images: ["public/AoA/1.jpeg",
-      "public/AoA/2.png",
+    images: ["/AoA/1.jpeg",
+      "/AoA/2.png",
     ], 
     icon: Award,
     tags: ["National Level", "Award", "Youth Parliament", "Govt. of India"],
@@ -74,9 +74,9 @@ const activities = [
     organization: "Patiala, Punjabi University",
     date: "Jan 31 - Feb 4, 2024",
     description: "Participated as a debater representing Guru Nanak Dev University in the 37th Inter University North Zone Youth Festival, organized by Punjabi University, Patiala.",
-    images: ["public/PU/1.jpg",
-      "public/PU/3.jpg",
-      "public/PU/4.jpg"
+    images: ["/PU/1.jpg",
+      "/PU/3.jpg",
+      "/PU/4.jpg"
     ],
     icon: Users,
     tags: ["Debate", "Participant", "University Level", "AIU"],
@@ -87,9 +87,9 @@ const activities = [
     organization: "DAV College / Guru Nanak Dev University",
     date: "May-June 2025",
     description: "Recognized for outstanding academic performance and securing a position on the Guru Nanak Dev University merit list for the May-June 2025 examinations.",
-    images: ["public/merit22/0.png",
-      "public/merit22/2.jpeg",
-      "public/merit22/3.jpeg"],
+    images: ["/merit22/0.png",
+      "/merit22/2.jpeg",
+      "/merit22/3.jpeg"],
     icon: Award,
     tags: ["Academics", "Merit Award", "GNDU"],
     color: "bg-purple-500"
@@ -99,8 +99,8 @@ const activities = [
     organization: "KRM DAV College",
     date: "2024",
     description: "Secured Overall Trophy in the Annual Debate Competition for the Aristotle Running Trophy.",
-    images: ["public/aristole/0.png",
-      "public/aristole/2.jpg",
+    images: ["/aristole/0.png",
+      "/aristole/2.jpg",
     ], // <-- Your certificate path
     icon: Award,
     tags: ["Debate", "Overall Trophy", "KRM DAV College"],
@@ -111,9 +111,9 @@ const activities = [
     organization: "DAV College, Jalandhar",
     date: "April 2024",
     description: "Recognized for outstanding performance in both academics and extra-curricular activities. Awards included: 1st in Zonal & Inter-Zonal Debate, 'Best Parliamentarian' (16th National Youth Parliament), 'College Colour', 'Academic Excellence Award' (University Merit), and an 'Appreciation Award for EMA'.",
-    images: ["public/multiple/0.png",
-      "public/multiple/1.png",
-      "public/multiple/7.jpg"      
+    images: ["/multiple/0.png",
+      "/multiple/1.png",
+      "/multiple/7.jpg"      
     ], 
     icon: Trophy,
     tags: ["Award", "Academics", "Debate", "Best Parliamentarian", "College Colour"],
@@ -124,11 +124,11 @@ const activities = [
     organization: "All India Radio, Jalandhar (FM 102.7 MHz)",
     date: "July 2024",
     description: "Invited to speak on the Yuvvani Program. It was a humbling and empowering experience to broadcast from the historic recording studio.",
-    images: ["public/AIR/1.png",
-      "public/AIR/1.jpg",
-      "public/AIR/2.jpg",
-      "public/AIR/3.jpg",
-      "public/AIR/5.jpg",
+    images: ["/AIR/1.png",
+      "/AIR/1.jpg",
+      "/AIR/2.jpg",
+      "/AIR/3.jpg",
+      "/AIR/5.jpg",
     ],
     icon: Mic2, // Or Sparkles, Award, etc.
     tags: ["Public Speaking", "All India Radio", "Yuvvani"],
@@ -140,8 +140,8 @@ const activities = [
     date: "Feb-Mar 2024",
     description: "Honored to secure 3rd position in two events: 'Net Savvy,' which tested research and digital literacy, and 'Logo Designing,' a challenge in creative visual storytelling.",
     images: [
-      "public/ITFEST2024/1.jpg",  
-      "public/ITFEST2024/2.jpg",
+      "/ITFEST2024/1.jpg",  
+      "/ITFEST2024/2.jpg",
     ],
     icon: Award,
     tags: ["IT Fest", "3rd Place", "Net Savvy", "Logo Design", "Competition"],
@@ -152,13 +152,13 @@ const activities = [
     organization: "Dept. of Computer Science, DAV College, Jalandhar",
     date: "2023",
     description: "Secured top positions across multiple competitions: 2nd in Logo Designing, 2nd in E-Waste Contest, and 3rd in Net Savvy. Also contributed to the E-Collage Contest and event coordination.",
-    images: ["public/ITFEST2023/1.jpg",
-      "public/ITFEST2023/2.jpg",
-      "public/ITFEST2023/3.jpeg",
-      "public/ITFEST2023/5.jpeg",
-      "public/ITFEST2023/6.jpeg",
-      "public/ITFEST2023/7.jpg",
-      "public/ITFEST2023/8.jpeg"      
+    images: ["/ITFEST2023/1.jpg",
+      "/ITFEST2023/2.jpg",
+      "/ITFEST2023/3.jpeg",
+      "/ITFEST2023/5.jpeg",
+      "/ITFEST2023/6.jpeg",
+      "/ITFEST2023/7.jpg",
+      "/ITFEST2023/8.jpeg"      
     ],
     icon: Trophy,
     tags: ["IT Fest", "Logo Design", "E-Waste", "Net Savvy", "Stage Handling"],
@@ -170,13 +170,13 @@ const activities = [
     date: "2023-2024",
     description: "Awarded First Position in Debate for both the Zonal and Inter-Zonal Youth Festivals (Session 2023-24).",
     images: [
-      "public/YFF/1.jpg",
-      "public/YFF/2.jpg",
-      "public/YFF/3.jpg",
-      "public/YFF/4.jpg",
-      "public/YFF/5.jpg",
-      "public/YFF/6.jpg",
-      "public/YFF/7.jpg"
+      "/YFF/1.jpg",
+      "/YFF/2.jpg",
+      "/YFF/3.jpg",
+      "/YFF/4.jpg",
+      "/YFF/5.jpg",
+      "/YFF/6.jpg",
+      "/YFF/7.jpg"
     ],
     icon: Trophy,
     tags: ["Debate", "First Place", "GNDU", "Zonal", "Inter-Zonal"],

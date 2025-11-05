@@ -114,7 +114,7 @@ const certifications = [
     issuer: "LPU / De Talks",
     date: "June 2025",
     skills: ["Career Proficiency", "Professional Development", "LPU"],
-    verifyUrl: "public/cp.jpg", // <-- Add your verification link here
+    verifyUrl: "/cp.jpg", // <-- Add your verification link here
     color: "from-orange-500 to-yellow-500"
   },
   {
@@ -122,7 +122,7 @@ const certifications = [
     issuer: "LPU / De Talks",
     date: "July 2025",
     skills: ["Universal Human Values", "Personal Development", "LPU"],
-    verifyUrl: "public/fohv.jpg", // <-- Add your verification link here
+    verifyUrl: "/fohv.jpg", // <-- Add your verification link here
     color: "from-blue-500 to-cyan-500"
   },
 ];
